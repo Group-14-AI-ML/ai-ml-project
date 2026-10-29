@@ -2,7 +2,7 @@ behaviors:
   PushBlock:
     trainer_type: ppo
     hyperparameters:
-      batch_size: 128
+      batch_size: 256
       buffer_size: 2048
       learning_rate: 0.0003
       beta: 0.01
@@ -20,6 +20,6 @@ behaviors:
         gamma: 0.99
         strength: 1.0
     keep_checkpoints: 5
-    max_steps: 2000000
+    max_steps: 500000
     time_horizon: 64
-    summary_freq: 60000
+    summary_freq: 10000
