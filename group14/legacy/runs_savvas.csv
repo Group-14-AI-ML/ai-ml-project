@@ -1,0 +1,13 @@
+run_id,environment_name,algorithm,learning_rate,batch_size,buffer_size,max_steps,random_seed,cpu_model,ram_gb,has_gpu,eval_success_rate,elapsed_seconds,steps_to_converge,policy_stability_std
+test_run_01,PushBlock,PPO,0.0003,128,2048,500000,-1,AMD Ryzen AI 9 HX 370 w/ Radeon 890M,31,False,0.86,647.6,500000,0.263
+run_02_lr_low,PushBlock,PPO,0.0001,128,2048,500000,-1,AMD Ryzen AI 9 HX 370 w/ Radeon 890M,31,False,0.93,643.4,240000,0.07
+run_03_lr_high,PushBlock,PPO,0.001,128,2048,500000,42,AMD Ryzen AI 9 HX 370 w/ Radeon 890M,31,False,0.99,646.0,280000,0.025
+run_04_batch_small,PushBlock,PPO,0.0003,64,1024,500000,42,AMD Ryzen AI 9 HX 370 w/ Radeon 890M,31,False,0.96,692.1,350000,0.064
+run_05_batch_large,PushBlock,PPO,0.0003,256,2048,500000,42,AMD Ryzen AI 9 HX 370 w/ Radeon 890M,31,False,0.61,582.3,500000,0.388
+run_06_lr_low_bs_small,PushBlock,PPO,0.0001,64,1024,500000,42,AMD Ryzen AI 9 HX 370 w/ Radeon 890M,31,False,0.43,631.6,500000,0.741
+run_07_lr_low_bs_large,PushBlock,PPO,0.0001,256,2048,500000,42,AMD Ryzen AI 9 HX 370 w/ Radeon 890M,31,False,0.77,526.5,500000,0.453
+run_08_lr_high_bs_small,PushBlock,PPO,0.001,64,1024,500000,42,AMD Ryzen AI 9 HX 370 w/ Radeon 890M,31,False,0.98,645.5,250000,0.035
+run_09_lr_high_bs_large,PushBlock,PPO,0.001,256,2048,500000,42,AMD Ryzen AI 9 HX 370 w/ Radeon 890M,31,False,0.9,534.1,450000,0.135
+run_10_seed_baseline,PushBlock,PPO,0.0003,128,2048,500000,123,AMD Ryzen AI 9 HX 370 w/ Radeon 890M,31,False,0.97,552.2,110000,0.032
+run_11_seed_lr_low,PushBlock,PPO,0.0001,128,2048,500000,123,AMD Ryzen AI 9 HX 370 w/ Radeon 890M,31,False,0.87,564.1,500000,0.264
+run_12_seed_lr_high,PushBlock,PPO,0.001,128,2048,500000,123,AMD Ryzen AI 9 HX 370 w/ Radeon 890M,31,False,0.99,602.4,110000,0.018
