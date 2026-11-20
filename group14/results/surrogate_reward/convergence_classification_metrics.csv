@@ -1,0 +1,4 @@
+Model,Accuracy,F1,ROC_AUC
+Dummy Majority Baseline,0.608,0.756,0.5
+Logistic Regression,0.622,0.725,0.649
+Random Forest Classifier,0.759,0.793,0.775

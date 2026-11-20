@@ -1,0 +1,5 @@
+Model,R2_mean,R2_std,RMSE_mean,MAE_mean
+Dummy Mean Baseline,-0.272,0.52,0.746,0.561
+Ridge Regression,-0.504,0.824,0.785,0.565
+Random Forest,-0.397,0.842,0.752,0.473
+Gradient Boosting,-0.598,0.729,0.829,0.522
